@@ -1,31 +1,58 @@
-# IDS706-python-template [![CI](https://github.com/nogibjj/IDS706-python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-python-template/actions/workflows/ci.yml)
+# IDS706-final-project [![CI](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/ci.yml)
 
-Mini-project 1. 
+## Project Requirements
 
-## Features
-- Environment Setup: Utilizes .devcontainer to set up a development environment in codespaces, ensuring consistent development environments across contributors.
-- Automated Workflow: Uses a Makefile to automate common tasks such as installation, testing, formatting, and linting.
-- Continuous Integration: Integrated with GitHub Actions to automate testing and other checks on push or pull request.
-- Base Libraries: Includes a foundational set of libraries for DevOps and web development, listed in requirements.txt.
+- Microservice
+    - Build a microservice that interfaces with a data pipeline. You can choose Python or Rust for development. The microservice should include logging and be containerized using the Distroless Docker image. A Dockerfile must be included in your repository.
+- Load Test
+    - The microservice must be capable of handling 10,000 requests per second. A load test verifying this performance should be included.
+- Data Engineering
+    - Your project should involve the use of a library specializing in data engineering such as Spark, Pandas, SQL, a vector database, or any other relevant library.
+- Infrastructure as Code (IaC)
+    - Your project must utilize an IaC solution for infrastructure setup and management. You can choose among AWS CloudFormation, AWS SAM, AWS CDK, or the Serverless Framework.
+- Continuous Integration and Continuous Delivery (CI/CD)
+    - Implement a CI/CD pipeline for your project. It could be through GitHub Actions or AWS Cloud Build or any other relevant tool.
+- README.md
+    - A comprehensive README file that clearly explains what the project does, its dependencies, how to run the program, its limitations, potential areas for improvement, and how AI Pair Programming tools (GitHub Copilot and one more tool of your choice) were used in your development process.
+- Architectural Diagram
+    - A clear diagram representing the architecture of your application should be included in your project documentation.
+- GitHub Configurations
+    - Your GitHub repository must include GitHub Actions and a .devcontainer configuration for GitHub Codespaces. This should make the local version of your project completely reproducible. The repository should also include GitHub Action build badges for install, lint, test, and format actions.
+- Teamwork Reflection
+    - Each team member should submit a separate 1-2 page management report reflecting on the team's functioning according to the principles discussed in your teamwork book. This report should not be part of the GitHub README but rather a separate document. It should include a peer evaluation in which each team member is graded on their performance, stating three positive attributes and three areas for improvement as the basis for the grade. Note that each student will share the teamwork reflection with their team and discuss it in a session before turning in the report. The outcome of this feedback session must be included in the report for full credit.
+- Quantitative Assessment
+    - The project must include a quantitative assessment of its reliability and stability. You must use data science fundamentals to describe system performance, e.g., average latency per request at different levels of requests per second (100, 1000, etc.). Think of the software system as a data science problem that needs to be described using data science principles.
+- Demo Video
+    - A YouTube link in README.md showing a clear, concise walkthrough and demonstration of your application, including the load test and system performance assessment.
+- Team Size and Makeup
+    - The team should consist of 3-4 people, ideally composed of 1-2 strong programmers and 1-2 quantitative storytellers.
 
-## Repository Structure
-- main.py: The main Python script of the project.
-- test_main.py: Tests associated with the main.py script.
-- .devcontainer: Configuration for setting up a development environment in codespaces.
-- .github: Configuration for GitHub Actions and other GitHub-related settings.
-- requirements.txt: Lists the Python libraries and their versions required for this project.
-- Makefile: Script to automate common tasks.
 
-## Getting Started
+## Grading Rubric
 
-1. Create a New Repository: Use this repository as a template to create a new repository.
-2. Clone the Repository: Clone the new repository to your local machine.
-3. Branching: Always create a new branch for your tasks or features.
-4. Development: Make the necessary changes or additions to the project.
-5. Commit and Push: Commit your changes and push them to the repository.
-6. Pull Requests: Create a pull request to merge your changes into the main branch.
-7. Code Review: Ensure your code is reviewed and all checks pass before merging.
-8. Clean-Up: After merging, delete the feature or task branch to keep the repository clean.
-
-## Contribution
-Contributions are welcome! Please ensure you follow the outlined process for development and adhere to best practices.
+- Microservice (20%)
+    - Implementation of the microservice: 10 points
+    - Use of logging: 5 points
+    - Proper containerization with Distroless: 5 points
+- Load Test (20%)
+    - Successful load test at 10,000 requests/second: 20 points
+- Data Engineering (10%)
+    - Effective use of a data engineering library: 10 points
+- Infrastructure as Code (IaC) (10%)
+    - Correct setup and management of infrastructure using IaC: 10 points
+- Continuous Integration and Continuous Delivery (CI/CD) (10%)
+    - Proper implementation of a CI/CD pipeline: 10 points
+- README.md (10%)
+    - Clarity and comprehensiveness of README.md: 5 points
+    - Explanation of AI Pair Programming tool usage: 5 points
+- Architectural Diagram (5%)
+    - Quality and clarity of the architectural diagram: 5 points
+- GitHub Configurations (5%)
+    - GitHub Actions + GitHub Codespaces .devcontainer configuration: 5 points
+- Final Team Presentation (15%)
+    - Quality and clarity of presentation: 10 points
+    - Team's ability to effectively answer questions and discuss the project: 5 points
+- Teamwork Reflection (5%)
+    - Quality and sincerity of reflection: 3 points
+    - Reflection includes peer evaluation with three positive attributes and three areas for improvement: 2 points
+- Total: 100%
