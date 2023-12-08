@@ -56,3 +56,6 @@
     - Quality and sincerity of reflection: 3 points
     - Reflection includes peer evaluation with three positive attributes and three areas for improvement: 2 points
 - Total: 100%
+
+## Team Members
+Bryce Shi(es474), Jingzhi Zhao(jz422)
