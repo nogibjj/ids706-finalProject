@@ -57,7 +57,7 @@ The architecture supports streamlined user interactions, transforming query requ
 
 - **Automated CI/CD Pipeline**: By integrating GitHub Actions, we ensure a streamlined and error-free development lifecycle. This setup automates critical steps like testing, linting, and deployment, enhancing overall code quality and operational efficiency.
 - **Comprehensive Load Testing**: The application includes extensive load testing, ensuring its resilience and reliability. This thorough testing simulates high-traffic scenarios, validating the system's capability to maintain performance standards under stress.
-![load-test](lhttps://github.com/nogibjj/ids706-finalProject/blob/main/images/loadTest-10000requestsPerSecond.jpg)
+![load-test](https://github.com/nogibjj/ids706-finalProject/blob/main/images/loadTest-10000requestsPerSecond.jpg)
 - **Data-Driven Performance Metrics**: A core feature of our project is its commitment to quantitative assessment. We employ data science principles to monitor and report on key performance indicators such as request latency, providing a transparent view of system efficiency and stability.
 
     ----  need more info ----
