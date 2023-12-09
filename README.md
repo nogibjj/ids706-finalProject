@@ -1,4 +1,8 @@
-# IDS706-final-project [![CI](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/ci.yml)
+# IDS706-final-project 
+[![install](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/install.yml)
+[![lint](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/lint.yml)
+[![test](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/test.yml)
+[![format](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml)
 
 ## Project Requirements
 
