@@ -5,7 +5,7 @@
 [![format](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml)
 
 ## Team Members
-Bryce Shi(es474), Jingzhi Zhao(jz422), Levia Yang(hy218), 
+Bryce Shi(es474), Jingzhi Zhao(jz422), Levia Yang(hy218), Yuwen Cai(yc560)
 
 ## Demo Link
 - Web Link: https://ids706-final-project.azurewebsites.net/
