@@ -4,7 +4,6 @@ import uvicorn
 from dblib.dbquery import DB 
 from urllib.parse import unquote
 from fastapi.responses import HTMLResponse
-import uvicorn
 
 # 设置日志
 logging.basicConfig(level=logging.INFO)
@@ -31,4 +30,4 @@ async def get_all_districts_info():
     return db.get_all_districts_info()
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=5000, host="0.0.0.0")
+    uvicorn.run(app, port=8000, host="0.0.0.0")
