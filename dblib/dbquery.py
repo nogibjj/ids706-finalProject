@@ -1,11 +1,17 @@
-"""Database query lib"""
 import json
 import mysql.connector
 import os
+from decimal import Decimal
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
+
+class CustomJSONEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return float(obj)
+        return super(CustomJSONEncoder, self).default(obj)
 
 class DB:
     """DB utility class to connect and query educational data"""
@@ -29,7 +35,7 @@ class DB:
                    'Average_SAT_Score', 'Total_Number_of_Schools', 'Average_Technology_Integration_Score', 
                    'Total_Enrollment']
         result = [dict(zip(columns, row)) for row in data]
-        return json.dumps(result)
+        return json.dumps(result, cls=CustomJSONEncoder)
 
     def get_all_districts_info(self):
         """Return summary info about all school districts"""
@@ -41,4 +47,4 @@ class DB:
                    'Average_SAT_Score', 'Total_Number_of_Schools', 'Average_Technology_Integration_Score', 
                    'Total_Enrollment']
         result = [dict(zip(columns, row)) for row in data]
-        return json.dumps(result)
+        return json.dumps(result, cls=CustomJSONEncoder)
