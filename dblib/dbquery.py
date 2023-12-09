@@ -39,10 +39,13 @@ class DB:
                     'Average_SAT_Score', 'Total_Number_of_Schools', 'Average_Technology_Integration_Score', 
                     'Total_Enrollment']
             result = [dict(zip(columns, row)) for row in data]
-            logger.info(f"District info retrieved for {district_name}")
+            logger.info("District info retrieved for %s", district_name)
             return json.dumps(result, cls=CustomJSONEncoder)
+        except mysql.connector.Error as e:
+            logger.error("Database error: %s", e)        
+
         except Exception as e:
-            logger.error(f"Error retrieving district info for {district_name}: {e}")
+            logger.error("Error retrieving district info for %s: %s", district_name, e)
             raise
 
 
@@ -60,6 +63,9 @@ class DB:
             logger.info("All districts info retrieved")
             return json.dumps(result, cls=CustomJSONEncoder)
 
+        except mysql.connector.Error as e:
+            logger.error("Database error: %s", e)
+
         except Exception as e:
-            logger.error(f"Error retrieving all districts info: {e}")
+            logger.error("Error retrieving all districts info: %s", e)
             raise
