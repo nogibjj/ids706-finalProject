@@ -8,7 +8,8 @@
 Bryce Shi(es474), Jingzhi Zhao(jz422), Levia Yang(hy218), 
 
 ## Demo Link
-    ---- need more info ----
+- Web Link: https://ids706-final-project.azurewebsites.net/
+- Video Demo: ---- need more info ----
 
 ## Project Overview
 This project develops a microservice-based Educational Metrics Service. It's designed to interface with a data pipeline, delivering detailed educational statistics about school districts. We chose Python for development, ensuring robust logging and containerization using Distroless Docker images. The service is capable of handling high-volume requests, tested to sustain 10,000 requests per second.
