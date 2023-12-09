@@ -4,8 +4,6 @@
 [![test](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/test.yml)
 [![format](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706-finalProject/actions/workflows/format.yml)
 
-# IDS706-final-project 
-
 ## Team Members
 Bryce Shi(es474), Jingzhi Zhao(jz422), Levia Yang(hy218), 
 
