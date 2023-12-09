@@ -1,19 +1,20 @@
-# Stage 1: Build and install dependencies in a full Python image
-FROM python:3.11 as builder
+# Use an official Python runtime as a parent image
+FROM python:3.10.8
 
-RUN mkdir /app
-COPY . /app/
+# Set the working directory to /app
 WORKDIR /app
 
-RUN pip install --user -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Stage 2: Copy the necessary files to a Distroless image
-FROM gcr.io/distroless/python3
+# Install any needed packages specified in requirements.txt
+RUN pip install -r requirements.txt
 
-COPY --from=builder /app /app
-COPY --from=builder /root/.local /root/.local
+# Make port 5000 available to the world outside this container
+EXPOSE 5000
 
-WORKDIR /app
+# Define environment variable
+ENV NAME World
 
-EXPOSE 8080
-CMD ["python", "app.py"]
+# Run app.py when the container launches
+CMD ["python", "main.py", "--host=0.0.0.0", "--port=5000"]
