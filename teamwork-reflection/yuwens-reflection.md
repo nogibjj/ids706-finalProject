@@ -1,8 +1,7 @@
 ### Teamwork Reflection
 
 #### Introduction
-As a vital member of the IDS706-final-project team, I played a crucial role in orchestrating the project's overall flow and documentation, grasping and explaining the nuances of our project's microservices architecture. As I move forward, I am determined to leverage these learnings to further develop my technical comprehension and documentation skills. 
-
+As a dedicated member of the IDS706-final-project team, I have assumed a key responsibility in orchestrating the project's overall flow, with a particular focus on architectural planning and data analysis. In this capacity, I have been actively involved in comprehending and articulating the nuances of our project's microservices architecture.
 #### Peer Evaluation
 
 1. **Bryce Shi**
@@ -39,3 +38,5 @@ During our recent feedback session, our team engaged in a constructive and respe
 The discussion on areas for improvement was approached positively, fostering a shared commitment to heightened engagement and continuous learning. Bryce expressed readiness to participate more actively in strategic planning, Jingzhi and Levia conveyed their eagerness to deepen their technical knowledge, and I acknowledged the need to be more proactive in technical discussions.
 
 Our session concluded with a unanimous agreement to implement more structured team meetings, engage in role rotations to enhance understanding of each other's challenges, and conduct regular peer reviews. This collective commitment underscores our dedication to sustained growth and collaborative success as a team.
+
+Looking ahead, my commitment extends to leveraging these experiences not only to enrich my technical comprehension and documentation skills but also to continue driving excellence in architectural planning and data analysis. As we collectively work towards the success of our project, I am enthusiastic about contributing my expertise in these vital aspects for the continued growth and achievement of our team objectives.
