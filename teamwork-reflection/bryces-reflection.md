@@ -37,3 +37,8 @@ As a lead programmer, I was deeply involved in the code construction and DevOps 
 
 #### Feedback Session Outcome
 In our feedback session, we openly discussed these evaluations. The team appreciated the positive attributes recognized and expressed a genuine interest in addressing the areas for improvement. Each member committed to specific actions to enhance their performance and contribute more effectively to the team. We all agreed that this reflection and feedback process was invaluable for our personal and professional growth.
+
+---------
+**These represent the concluding lines of code that Bryce composes in this IDS706 final project.**  
+**Bryce would like to express his sincere gratitude to Yuchen, Jingzhi, and Hugo for their invaluable support. He extends his heartfelt thanks for their role in shaping his academic journey and personal growth.
+Additionally, Bryce congratulates Yuchen on completing his master's program and transitioning to the industrial world. He believes Yuchen will thrive and wishes him every success in this new chapter of his life.** - Dec 9, 2023
