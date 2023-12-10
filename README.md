@@ -8,7 +8,7 @@
 Bryce Shi(es474), Jingzhi Zhao(jz422), Levia Yang(hy218), Yuwen Cai(yc560)
 
 ## Demo Link
-- Web Link: https://ids706-final-project.azurewebsites.net/
+- Web Link: https://fall2023ids706final.azurewebsites.net/
 - Video Demo: ---- need more info ----
 
 ## Project Overview
