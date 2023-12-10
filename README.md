@@ -54,14 +54,12 @@ The architecture supports streamlined user interactions, transforming query requ
 ![load-test](https://github.com/nogibjj/ids706-finalProject/blob/main/images/loadTest-10000requestsPerSecond.jpg)
 - **Data-Driven Performance Metrics**: A core feature of our project is its commitment to quantitative assessment. We employ data science principles to monitor and report on key performance indicators such as request latency, providing a transparent view of system efficiency and stability.
 
-    ----  need more info ----
-
 ## Installation and Setup
 ### Clone the Repository
 To get started with the Educational Metrics Service, clone the repository to your local machine using the following commands in your terminal:
 
 ```bash
-git clone [link]
+git clone https://github.com/nogibjj/ids706-finalProject.git
 cd [ids706-finalProject]
 ```
 ### Docker Setup
